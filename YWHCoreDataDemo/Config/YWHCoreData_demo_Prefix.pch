@@ -1,0 +1,20 @@
+//
+//  YWHCoreData_demo_Prefix.pch
+//  YWHCoreDataDemo
+//
+//  Created by 杨文豪 on 2020/11/10.
+//
+
+#ifndef YWHCoreData_demo_Prefix_pch
+#define YWHCoreData_demo_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "YWHMacros.h"
+
+#endif /* YWHCoreData_demo_Prefix_pch */

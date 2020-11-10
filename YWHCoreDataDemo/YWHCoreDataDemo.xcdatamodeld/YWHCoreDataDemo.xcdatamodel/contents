@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="YWHAccountModel" representedClassName="YWHAccountModel" syncable="YES">
+        <attribute name="nick" optional="YES" attributeType="String"/>
+        <attribute name="registerTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="uuid" optional="YES" attributeType="String"/>
+        <relationship name="address" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="YWHAddressModel" inverseName="account" inverseEntity="YWHAddressModel"/>
+    </entity>
+    <entity name="YWHAddressModel" representedClassName="YWHAddressModel" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="roomid" optional="YES" attributeType="String"/>
+        <relationship name="account" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="YWHAccountModel" inverseName="address" inverseEntity="YWHAccountModel"/>
+    </entity>
+    <elements>
+        <element name="YWHAccountModel" positionX="-393.0078125" positionY="-211.54296875" width="128" height="103"/>
+        <element name="YWHAddressModel" positionX="-54" positionY="18" width="128" height="88"/>
+    </elements>
+</model>

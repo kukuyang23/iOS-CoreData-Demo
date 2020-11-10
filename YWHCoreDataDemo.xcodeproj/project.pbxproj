@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCFDCCF9255A663400FA947D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDCCF8255A663400FA947D /* AppDelegate.m */; };
+		FCFDCCFF255A663400FA947D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDCCFE255A663400FA947D /* ViewController.m */; };
+		FCFDCD05255A663400FA947D /* YWHCoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FCFDCD03255A663400FA947D /* YWHCoreDataDemo.xcdatamodeld */; };
+		FCFDCD07255A663900FA947D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFDCD06255A663900FA947D /* Assets.xcassets */; };
+		FCFDCD0A255A663900FA947D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFDCD08255A663900FA947D /* LaunchScreen.storyboard */; };
+		FCFDCD0D255A663900FA947D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDCD0C255A663900FA947D /* main.m */; };
+		FCFDCD17255A663900FA947D /* YWHCoreDataDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDCD16255A663900FA947D /* YWHCoreDataDemoTests.m */; };
+		FCFDCD22255A663900FA947D /* YWHCoreDataDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDCD21255A663900FA947D /* YWHCoreDataDemoUITests.m */; };
+		FCFDCD3A255A670100FA947D /* YWHDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDCD39255A670100FA947D /* YWHDataManager.m */; };
+		FCFDCD4E255A69CC00FA947D /* YWHMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDCD4D255A69CC00FA947D /* YWHMacros.m */; };
+		FCFDCD63255A803C00FA947D /* YWHAddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDCD5D255A803C00FA947D /* YWHAddressModel.m */; };
+		FCFDCD64255A803C00FA947D /* YWHAddressModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDCD5E255A803C00FA947D /* YWHAddressModel+CoreDataProperties.m */; };
+		FCFDCD65255A803C00FA947D /* YWHAccountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDCD61255A803C00FA947D /* YWHAccountModel.m */; };
+		FCFDCD66255A803C00FA947D /* YWHAccountModel+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = FCFDCD62255A803C00FA947D /* YWHAccountModel+CoreDataProperties.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCFDCD13255A663900FA947D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFDCCEC255A663400FA947D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFDCCF3255A663400FA947D;
+			remoteInfo = YWHCoreDataDemo;
+		};
+		FCFDCD1E255A663900FA947D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFDCCEC255A663400FA947D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCFDCCF3255A663400FA947D;
+			remoteInfo = YWHCoreDataDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FCFDCCF4255A663400FA947D /* YWHCoreDataDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YWHCoreDataDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFDCCF7255A663400FA947D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCFDCCF8255A663400FA947D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCFDCCFD255A663400FA947D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCFDCCFE255A663400FA947D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FCFDCD04255A663400FA947D /* YWHCoreDataDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YWHCoreDataDemo.xcdatamodel; sourceTree = "<group>"; };
+		FCFDCD06255A663900FA947D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCFDCD09255A663900FA947D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCFDCD0B255A663900FA947D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFDCD0C255A663900FA947D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCFDCD12255A663900FA947D /* YWHCoreDataDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWHCoreDataDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFDCD16255A663900FA947D /* YWHCoreDataDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWHCoreDataDemoTests.m; sourceTree = "<group>"; };
+		FCFDCD18255A663900FA947D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFDCD1D255A663900FA947D /* YWHCoreDataDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YWHCoreDataDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFDCD21255A663900FA947D /* YWHCoreDataDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWHCoreDataDemoUITests.m; sourceTree = "<group>"; };
+		FCFDCD23255A663900FA947D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFDCD38255A670100FA947D /* YWHDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWHDataManager.h; sourceTree = "<group>"; };
+		FCFDCD39255A670100FA947D /* YWHDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWHDataManager.m; sourceTree = "<group>"; };
+		FCFDCD3E255A690A00FA947D /* YWHCoreData_demo_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWHCoreData_demo_Prefix.pch; sourceTree = "<group>"; };
+		FCFDCD4C255A69C000FA947D /* YWHMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWHMacros.h; sourceTree = "<group>"; };
+		FCFDCD4D255A69CC00FA947D /* YWHMacros.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWHMacros.m; sourceTree = "<group>"; };
+		FCFDCD5B255A803C00FA947D /* YWHAddressModel+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YWHAddressModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FCFDCD5C255A803C00FA947D /* YWHAddressModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWHAddressModel.h; sourceTree = "<group>"; };
+		FCFDCD5D255A803C00FA947D /* YWHAddressModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWHAddressModel.m; sourceTree = "<group>"; };
+		FCFDCD5E255A803C00FA947D /* YWHAddressModel+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YWHAddressModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+		FCFDCD5F255A803C00FA947D /* YWHAccountModel+CoreDataProperties.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YWHAccountModel+CoreDataProperties.h"; sourceTree = "<group>"; };
+		FCFDCD60255A803C00FA947D /* YWHAccountModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YWHAccountModel.h; sourceTree = "<group>"; };
+		FCFDCD61255A803C00FA947D /* YWHAccountModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YWHAccountModel.m; sourceTree = "<group>"; };
+		FCFDCD62255A803C00FA947D /* YWHAccountModel+CoreDataProperties.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "YWHAccountModel+CoreDataProperties.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCFDCCF1255A663400FA947D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFDCD0F255A663900FA947D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFDCD1A255A663900FA947D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCFDCCEB255A663400FA947D = {
+			isa = PBXGroup;
+			children = (
+				FCFDCCF6255A663400FA947D /* YWHCoreDataDemo */,
+				FCFDCD15255A663900FA947D /* YWHCoreDataDemoTests */,
+				FCFDCD20255A663900FA947D /* YWHCoreDataDemoUITests */,
+				FCFDCCF5255A663400FA947D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCFDCCF5255A663400FA947D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDCCF4255A663400FA947D /* YWHCoreDataDemo.app */,
+				FCFDCD12255A663900FA947D /* YWHCoreDataDemoTests.xctest */,
+				FCFDCD1D255A663900FA947D /* YWHCoreDataDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCFDCCF6255A663400FA947D /* YWHCoreDataDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDCD6A255A805200FA947D /* Model */,
+				FCFDCD3F255A694500FA947D /* Config */,
+				FCFDCCF7255A663400FA947D /* AppDelegate.h */,
+				FCFDCCF8255A663400FA947D /* AppDelegate.m */,
+				FCFDCCFD255A663400FA947D /* ViewController.h */,
+				FCFDCCFE255A663400FA947D /* ViewController.m */,
+				FCFDCD06255A663900FA947D /* Assets.xcassets */,
+				FCFDCD08255A663900FA947D /* LaunchScreen.storyboard */,
+				FCFDCD0B255A663900FA947D /* Info.plist */,
+				FCFDCD0C255A663900FA947D /* main.m */,
+				FCFDCD03255A663400FA947D /* YWHCoreDataDemo.xcdatamodeld */,
+				FCFDCD38255A670100FA947D /* YWHDataManager.h */,
+				FCFDCD39255A670100FA947D /* YWHDataManager.m */,
+			);
+			path = YWHCoreDataDemo;
+			sourceTree = "<group>";
+		};
+		FCFDCD15255A663900FA947D /* YWHCoreDataDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDCD16255A663900FA947D /* YWHCoreDataDemoTests.m */,
+				FCFDCD18255A663900FA947D /* Info.plist */,
+			);
+			path = YWHCoreDataDemoTests;
+			sourceTree = "<group>";
+		};
+		FCFDCD20255A663900FA947D /* YWHCoreDataDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDCD21255A663900FA947D /* YWHCoreDataDemoUITests.m */,
+				FCFDCD23255A663900FA947D /* Info.plist */,
+			);
+			path = YWHCoreDataDemoUITests;
+			sourceTree = "<group>";
+		};
+		FCFDCD3F255A694500FA947D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDCD40255A695100FA947D /* Const */,
+				FCFDCD3E255A690A00FA947D /* YWHCoreData_demo_Prefix.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		FCFDCD40255A695100FA947D /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDCD4C255A69C000FA947D /* YWHMacros.h */,
+				FCFDCD4D255A69CC00FA947D /* YWHMacros.m */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		FCFDCD6A255A805200FA947D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FCFDCD5B255A803C00FA947D /* YWHAddressModel+CoreDataProperties.h */,
+				FCFDCD5C255A803C00FA947D /* YWHAddressModel.h */,
+				FCFDCD5D255A803C00FA947D /* YWHAddressModel.m */,
+				FCFDCD5E255A803C00FA947D /* YWHAddressModel+CoreDataProperties.m */,
+				FCFDCD5F255A803C00FA947D /* YWHAccountModel+CoreDataProperties.h */,
+				FCFDCD60255A803C00FA947D /* YWHAccountModel.h */,
+				FCFDCD61255A803C00FA947D /* YWHAccountModel.m */,
+				FCFDCD62255A803C00FA947D /* YWHAccountModel+CoreDataProperties.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCFDCCF3255A663400FA947D /* YWHCoreDataDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFDCD26255A663900FA947D /* Build configuration list for PBXNativeTarget "YWHCoreDataDemo" */;
+			buildPhases = (
+				FCFDCCF0255A663400FA947D /* Sources */,
+				FCFDCCF1255A663400FA947D /* Frameworks */,
+				FCFDCCF2255A663400FA947D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YWHCoreDataDemo;
+			productName = YWHCoreDataDemo;
+			productReference = FCFDCCF4255A663400FA947D /* YWHCoreDataDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCFDCD11255A663900FA947D /* YWHCoreDataDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFDCD29255A663900FA947D /* Build configuration list for PBXNativeTarget "YWHCoreDataDemoTests" */;
+			buildPhases = (
+				FCFDCD0E255A663900FA947D /* Sources */,
+				FCFDCD0F255A663900FA947D /* Frameworks */,
+				FCFDCD10255A663900FA947D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFDCD14255A663900FA947D /* PBXTargetDependency */,
+			);
+			name = YWHCoreDataDemoTests;
+			productName = YWHCoreDataDemoTests;
+			productReference = FCFDCD12255A663900FA947D /* YWHCoreDataDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCFDCD1C255A663900FA947D /* YWHCoreDataDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCFDCD2C255A663900FA947D /* Build configuration list for PBXNativeTarget "YWHCoreDataDemoUITests" */;
+			buildPhases = (
+				FCFDCD19255A663900FA947D /* Sources */,
+				FCFDCD1A255A663900FA947D /* Frameworks */,
+				FCFDCD1B255A663900FA947D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCFDCD1F255A663900FA947D /* PBXTargetDependency */,
+			);
+			name = YWHCoreDataDemoUITests;
+			productName = YWHCoreDataDemoUITests;
+			productReference = FCFDCD1D255A663900FA947D /* YWHCoreDataDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCFDCCEC255A663400FA947D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					FCFDCCF3255A663400FA947D = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					FCFDCD11255A663900FA947D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = FCFDCCF3255A663400FA947D;
+					};
+					FCFDCD1C255A663900FA947D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = FCFDCCF3255A663400FA947D;
+					};
+				};
+			};
+			buildConfigurationList = FCFDCCEF255A663400FA947D /* Build configuration list for PBXProject "YWHCoreDataDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCFDCCEB255A663400FA947D;
+			productRefGroup = FCFDCCF5255A663400FA947D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCFDCCF3255A663400FA947D /* YWHCoreDataDemo */,
+				FCFDCD11255A663900FA947D /* YWHCoreDataDemoTests */,
+				FCFDCD1C255A663900FA947D /* YWHCoreDataDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCFDCCF2255A663400FA947D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFDCD0A255A663900FA947D /* LaunchScreen.storyboard in Resources */,
+				FCFDCD07255A663900FA947D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFDCD10255A663900FA947D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFDCD1B255A663900FA947D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCFDCCF0255A663400FA947D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFDCD3A255A670100FA947D /* YWHDataManager.m in Sources */,
+				FCFDCD64255A803C00FA947D /* YWHAddressModel+CoreDataProperties.m in Sources */,
+				FCFDCD66255A803C00FA947D /* YWHAccountModel+CoreDataProperties.m in Sources */,
+				FCFDCD65255A803C00FA947D /* YWHAccountModel.m in Sources */,
+				FCFDCD4E255A69CC00FA947D /* YWHMacros.m in Sources */,
+				FCFDCD0D255A663900FA947D /* main.m in Sources */,
+				FCFDCD63255A803C00FA947D /* YWHAddressModel.m in Sources */,
+				FCFDCD05255A663400FA947D /* YWHCoreDataDemo.xcdatamodeld in Sources */,
+				FCFDCCFF255A663400FA947D /* ViewController.m in Sources */,
+				FCFDCCF9255A663400FA947D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFDCD0E255A663900FA947D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFDCD17255A663900FA947D /* YWHCoreDataDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFDCD19255A663900FA947D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFDCD22255A663900FA947D /* YWHCoreDataDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCFDCD14255A663900FA947D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFDCCF3255A663400FA947D /* YWHCoreDataDemo */;
+			targetProxy = FCFDCD13255A663900FA947D /* PBXContainerItemProxy */;
+		};
+		FCFDCD1F255A663900FA947D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCFDCCF3255A663400FA947D /* YWHCoreDataDemo */;
+			targetProxy = FCFDCD1E255A663900FA947D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FCFDCD08255A663900FA947D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCFDCD09255A663900FA947D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCFDCD24255A663900FA947D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCFDCD25255A663900FA947D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCFDCD27255A663900FA947D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C4AH4YJKV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YWHCoreDataDemo/Config/YWHCoreData_demo_Prefix.pch;
+				INFOPLIST_FILE = YWHCoreDataDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.YWHCoreDataDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCFDCD28255A663900FA947D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C4AH4YJKV;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YWHCoreDataDemo/Config/YWHCoreData_demo_Prefix.pch;
+				INFOPLIST_FILE = YWHCoreDataDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.YWHCoreDataDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCFDCD2A255A663900FA947D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C4AH4YJKV;
+				INFOPLIST_FILE = YWHCoreDataDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.YWHCoreDataDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWHCoreDataDemo.app/YWHCoreDataDemo";
+			};
+			name = Debug;
+		};
+		FCFDCD2B255A663900FA947D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C4AH4YJKV;
+				INFOPLIST_FILE = YWHCoreDataDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.YWHCoreDataDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YWHCoreDataDemo.app/YWHCoreDataDemo";
+			};
+			name = Release;
+		};
+		FCFDCD2D255A663900FA947D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C4AH4YJKV;
+				INFOPLIST_FILE = YWHCoreDataDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.YWHCoreDataDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YWHCoreDataDemo;
+			};
+			name = Debug;
+		};
+		FCFDCD2E255A663900FA947D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C4AH4YJKV;
+				INFOPLIST_FILE = YWHCoreDataDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.YWHCoreDataDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YWHCoreDataDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCFDCCEF255A663400FA947D /* Build configuration list for PBXProject "YWHCoreDataDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFDCD24255A663900FA947D /* Debug */,
+				FCFDCD25255A663900FA947D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFDCD26255A663900FA947D /* Build configuration list for PBXNativeTarget "YWHCoreDataDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFDCD27255A663900FA947D /* Debug */,
+				FCFDCD28255A663900FA947D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFDCD29255A663900FA947D /* Build configuration list for PBXNativeTarget "YWHCoreDataDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFDCD2A255A663900FA947D /* Debug */,
+				FCFDCD2B255A663900FA947D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFDCD2C255A663900FA947D /* Build configuration list for PBXNativeTarget "YWHCoreDataDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCFDCD2D255A663900FA947D /* Debug */,
+				FCFDCD2E255A663900FA947D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FCFDCD03255A663400FA947D /* YWHCoreDataDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FCFDCD04255A663400FA947D /* YWHCoreDataDemo.xcdatamodel */,
+			);
+			currentVersion = FCFDCD04255A663400FA947D /* YWHCoreDataDemo.xcdatamodel */;
+			path = YWHCoreDataDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FCFDCCEC255A663400FA947D /* Project object */;
+}
